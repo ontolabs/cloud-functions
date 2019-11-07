@@ -2,6 +2,7 @@
   "projects": {
     "default": "ontolabs",
     "hi-va": "hi-va-89780",
-    "upb": "upb-movil-69031"
+    "upb": "upb-movil-69031",
+    "fotoenblanco": "fotoenblanco-b239c"
   }
 }
