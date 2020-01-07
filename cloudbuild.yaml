@@ -1,0 +1,9 @@
+steps:
+# Install
+- name: node:8-alpine
+  entrypoint: npm
+  args: ['--prefix', 'functions', 'install']
+# Test
+- name: node:8-alpine
+  entrypoint: npm
+  args: ['--prefix', 'functions', 'run', 'test']
